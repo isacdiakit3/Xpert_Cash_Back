@@ -1,10 +1,9 @@
 package com.Xpertpro.XpertCash.Model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Data;
+
+import java.util.List;
 
 @Entity
 @Data
@@ -18,4 +17,5 @@ public class Admin {
     private String email;
     private String password;
     private long code;
-}
+
+   }
